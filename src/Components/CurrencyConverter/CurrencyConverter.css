@@ -1,0 +1,76 @@
+
+.converter-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.converter-content {
+    padding: 20px 40px;
+    border: 2px solid #77777786;
+ border-radius: 5px;
+}
+
+.converter-content span{
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #777777;
+}
+
+.converter-content h4{
+    text-align: start;
+}
+
+.converter-content__currency {
+    display: flex;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.converter-content__currency input{
+    background-color:rgb(108, 3, 179);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.converter-content__currency input:nth-child(1){
+    border-radius:  5px 0 0 5px ;
+}
+
+.converter-content__currency select{
+    background-color:rgb(108, 3, 179);
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;max-width: 100px;
+}
+
+.btn-reverse img{
+    width: 22px;
+    padding-top: 3px;
+}
+
+.converter-count {
+    display: flex;
+    position: relative;
+}
+
+.converter-count input{
+    width: 100%;
+    padding: 5px 5px 40px 5px;
+    background: none;
+    border: 2px solid #77777786;
+    color: #777777;
+    font-size: 42px;
+}
+
+.converter-count label{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    color: #777777;
+}

@@ -1,0 +1,38 @@
+.form {
+  max-width: 800px;
+}
+
+.form-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+.form-content label {
+    color: #777777;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: start;
+    padding-bottom: 5px;
+}
+
+.form-content input, .form-content textarea {
+  padding: 10px;
+  background: transparent;
+  border: 2px solid #77777786;
+  border-radius: 5px;
+  resize: none;
+  font-size: 14px;
+  color: #777777;
+}
+
+.form-content input.is-not-valid, .form-content textarea.is-not-valid {
+  border: 2px solid red;
+}
+
+.form-content textarea {
+    min-height: 200px;
+    resize: none;
+  }
